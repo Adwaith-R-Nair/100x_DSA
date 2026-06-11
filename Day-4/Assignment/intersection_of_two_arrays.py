@@ -15,7 +15,7 @@ for i in b:
 
 if len(ans) > 0:
     print(len(ans))
-    print(" ".join(map(str, ans)))
+    print(" ".join(map(str, sorted(ans))))
 else:
     print(0)
-    print(ans)
+    print()
